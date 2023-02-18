@@ -29,11 +29,13 @@ body {
 
 .work-section {
   grid-column: 1/-1;
+  background-color: #e5e5e5;
 }
 
 .aboutmyself-section {
   grid-column: 1/-1;
   background-color: #e5e5e5;
+
 }
 
 .introduction-section {
@@ -126,7 +128,6 @@ body {
 
 #aboutmyself-container,
 #work-container {
-  background-color: #e5e5e5;
   display: flex;
   flex-direction: column;
   flex-wrap: hidden;
@@ -184,9 +185,11 @@ body {
 }
 
 .role-dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background: #c1c7d0;
+  margin: 6.5px 22px;
+  border-radius: 50%;
 }
 
 .role-name {
@@ -239,16 +242,36 @@ body {
   color: #396df2;
 }
 
-.planguage {
+.expand-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.expand-ul li a {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
-.language-btn {
+.bn-img-down {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+}
+.language-btn{
   width: 100%;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+.language-btn li{
   font-weight: 500;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -258,11 +281,7 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: #f7f7f9;
-  border-radius: 8px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  border: none;
+ 
 }
 
 .language-list img {
@@ -343,4 +362,9 @@ body {
   font-weight: 500;
   font-size: 17px;
   color: #6070ff;
+}
+
+.btn-action-event:hover{
+  text-decoration: underline;
+  
 }
