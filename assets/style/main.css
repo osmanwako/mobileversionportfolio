@@ -35,7 +35,6 @@ body {
 .aboutmyself-section {
   grid-column: 1/-1;
   background-color: #e5e5e5;
-
 }
 
 .introduction-section {
@@ -251,7 +250,7 @@ body {
   margin-top: 30px;
 }
 
-.expand-ul li a {
+.expand-ula {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -263,7 +262,8 @@ body {
   border: none;
   background-color: transparent;
 }
-.language-btn{
+
+.language-btn {
   width: 100%;
   background-color: #f7f7f9;
   border-radius: 8px;
@@ -271,7 +271,8 @@ body {
   margin-bottom: 10px;
   border: none;
 }
-.language-btn li{
+
+.language-btn li {
   font-weight: 500;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -281,7 +282,6 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
- 
 }
 
 .language-list img {
@@ -364,7 +364,6 @@ body {
   color: #6070ff;
 }
 
-.btn-action-event:hover{
+.btn-action-event:hover {
   text-decoration: underline;
-  
 }
