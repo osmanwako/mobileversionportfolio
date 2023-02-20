@@ -156,11 +156,14 @@ body {
   width: 100%;
 }
 
-.work-role,
-.my-skill {
+.work-role {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.my-skill li {
+  float: left;
 }
 
 .work-role-list {
