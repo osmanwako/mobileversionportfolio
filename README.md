@@ -244,5 +244,4 @@ I would like to thank Microverse Staff and Partiner.
 
 ## 📝 License <a name="license"></a>
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This is the [MIT](./MIT.md) LICENSE
