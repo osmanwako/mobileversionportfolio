@@ -1,4 +1,4 @@
-## Copyright 2021, Osman Wako
+## Copyright 2023, Osman Wako
 
 ###### Please delete this line and the next one
 ###### APP TYPE can be a webpage/website, a web app, a software and so on
