@@ -2,14 +2,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: normal;
   text-decoration: none;
   list-style: none;
 }
 
 body {
   background-color: white;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-weight: normal;
 }
 
 .grid-container {
@@ -312,8 +312,8 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .aboutmyself-text {
@@ -335,6 +335,9 @@ body {
 .aboutmyself-input {
   margin-top: 20px;
   padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
   width: 100%;
 }
 
@@ -346,7 +349,10 @@ body {
 .aboutmyself-message {
   margin-top: 20px;
   height: 200px;
-  padding: 7px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3bac5;
+  padding: 10px;
   width: 100%;
 }
 
@@ -359,28 +365,39 @@ body {
   color: #6070ff;
 }
 
-.btn-action-event:hover {
-  text-decoration: underline;
+.btn-contact:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
 }
 
-.p-more-information:hover {
-  border: 2px solid #396df2;
-  color: #253858;
+.btn-contact:active {
+  color: #fff;
+  background: #2230d2;
+  border-radius: 8px;
 }
 
-.lang-content:hover {
-  border: 2px solid #396df2;
-  columns: #253858;
+.btn-contact:disabled {
+  font-style: normal;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #5e6c84;
 }
 
-.input-bg:focus {
-  border: 2px solid #396df2;
+.end-tag {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.input-bg:disabled {
-  border: 2px solid #253858;
-}
-
-.social-icon:hover {
-  border: 1px solid #253858;
+.footer-end {
+  width: 50%;
+  text-align: center;
+  border: 5px solid #000;
+  background-color: #000;
 }
