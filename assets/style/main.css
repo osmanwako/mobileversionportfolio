@@ -2,14 +2,15 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-weight: normal;
   text-decoration: none;
   list-style: none;
 }
 
 body {
   background-color: white;
-  font-family: "Poppins", Helvetica, Arial, sans-serif;
-  font-weight: normal;
+  
 }
 
 .grid-container {
@@ -305,15 +306,15 @@ body {
 }
 
 .about-getintouch {
-  background-image: url("../images/Group 56 (1).png");
+  background-image: url("../images/contact.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .aboutmyself-text {
@@ -335,6 +336,9 @@ body {
 .aboutmyself-input {
   margin-top: 20px;
   padding: 15px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #172b4d;
   width: 100%;
 }
 
@@ -346,7 +350,10 @@ body {
 .aboutmyself-message {
   margin-top: 20px;
   height: 200px;
-  padding: 7px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #b3bac5;
+  padding: 10px;
   width: 100%;
 }
 
